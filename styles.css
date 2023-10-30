@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* https://paletadecores.com/paleta/5a7282/728a9a/89a2b3/a1bacb/b8d2e3/ */
+
+body {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    background-color: #5a7282;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo,
+.menu {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.logo-texto {
+    padding-left: 10px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container01,
+.container02,
+.container03,
+.container04 {
+    padding: 20px;
+}
+
+.container01 {
+    background-color: #5a7282;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 365px;
+
+
+}
+
+.container01-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.main-title,
+.main-button,
+.subtitulo {
+    color: #fff;
+}
+
+.cards {
+    display: flex;
+    padding-top: 32px;
+    gap: 52px;
+
+}
+
+.text {
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+.main-button {
+    background-color: #df4a4a;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 200px;
+}
+
+
+
+.subtitulo {
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+
+.main-title {
+    font-size: 38px;
+    font-weight: 900;
+}
+
+.container02 {
+    background-color: #fff;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    align-items: center;
+
+}
+
+
+.container03 {
+    background-color: #728a9a;
+    height: 200px;
+    color: #fff;
+}
+
+.container04 {
+    background-color: #fff;
+    height: 200px;
+}
+
+.footer {
+    background-color: #5a7282;
+    text-align: center;
+    color: #fff;
+
+}
+
+.icone,
+.icone-contato {
+    font-size: 48px;
+    color: #5a7282;
+}
+
+.icone-logo{
+    color: #fff;
+    font-size: 48px;
+}
+
+.citacao {
+    padding-top: 50px;
+}
+
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* retirado de https://www.meutedio.com/2008/11/quando-e-como-usar-blockquote.html */
+blockquote {
+    border: silver solid;
+    border-width: 0px 2px 2px 0px;
+    background: transparent url(//www.blogblog.com/tictac/quotes.gif) no-repeat scroll left top;
+    padding-left: 33px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* https://www.w3schools.com/cssref/sel_hover.php */
+
+a:hover {
+    background-color: #b8d2e3;
+}
